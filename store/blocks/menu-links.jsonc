@@ -1,0 +1,81 @@
+{
+  "vtex.menu@2.x:menu#menu-links": {
+    "props": {
+      "blockClass": "menu"
+    },
+    "children": [
+      "menu-item#menu-1",
+      "menu-item#menu-2",
+      "menu-item#menu-3",
+      "menu-item#menu-4"
+    ]
+  },
+
+
+  /* ----- Menu 1 ----- */
+  "menu-item#menu-1": {
+    "props": {
+      "id": "menu-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "href": "/menu-1",
+        "noFollow": false,
+        "tagTitle": "Menu-1",
+        "text": "Menu 1"
+      }
+    }
+  },
+  /* ----- Menu 2 ----- */
+  "menu-item#menu-2": {
+    "props": {
+      "id": "menu-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "href": "/menu-2",
+        "noFollow": false,
+        "tagTitle": "Menu-2",
+        "text": "Menu 2"
+      }
+    }
+  },
+  /* ----- Menu 3 ----- */
+  "menu-item#menu-3": {
+    "props": {
+      "id": "menu-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "href": "/menu-3",
+        "noFollow": false,
+        "tagTitle": "Menu-3",
+        "text": "Menu 3"
+      }
+    }
+  },
+  /* ----- Menu 4 ----- */
+  "menu-item#menu-4": {
+    "props": {
+      "id": "menu-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "href": "/menu-4",
+        "noFollow": false,
+        "tagTitle": "Menu-4",
+        "text": "Menu 4"
+      }
+    }
+  }
+
+  
+}

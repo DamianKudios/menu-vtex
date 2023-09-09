@@ -1,0 +1,36 @@
+.container :global(.vtex-button__label) .label {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #000;
+    text-transform: capitalize;
+    width: 150px;
+}
+
+
+.container :global(.vtex-button__label) .label::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    border-radius: 25px;
+    height: 15px;
+    padding: 10px;
+    border: 1px solid #2C679E;
+    background: url("assets/Img/Header/user.svg") no-repeat center center / cover;
+    background-size: 20px;
+}
+
+@media screen and (max-width: 765px) {
+    .container :global(.vtex-button__label) .label::before {
+        content: '';
+        width: 10px;
+        height: 10px;
+        padding: 8px;
+        background-size: 15px;
+    }   
+    .container :global(.vtex-button__label) .label {
+        width: auto;
+    }
+}

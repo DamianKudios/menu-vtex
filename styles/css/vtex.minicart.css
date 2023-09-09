@@ -1,0 +1,15 @@
+.minicartContainer :global(.vtex-button)::after {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url("assets/Img/Header/cart.svg") no-repeat center center / contain;
+    background-size: 32px;
+  }
+
+@media screen and (max-width: 765px) {
+
+  .minicartContainer :global(.vtex-button)::after {
+    background-size: 25px;
+  }
+  }

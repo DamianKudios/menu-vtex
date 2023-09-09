@@ -1,0 +1,55 @@
+{
+  "header-layout.mobile": {
+    "children": ["sticky-layout#header-mobile"]
+  },
+  "sticky-layout#header-mobile": {
+    "props": {
+      "blockClass": "sticky-header-mb"
+    },
+    "children": [
+      "flex-layout.row#header-mid-mb",
+      "flex-layout.row#header-search-mb"
+
+    ]
+  },
+
+ 
+  /* ----- ROW MID ----- */
+  "flex-layout.row#header-mid-mb": {
+    "props": {
+      "blockClass": "header-mid-mb"
+    },
+    "children": [
+      "drawer#menu",
+      "logo#header-mb",
+      "flex-layout.col#login-cart-ds"
+    ]
+  },
+
+  "drawer#menu": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-links"
+    ],
+    "props": {
+      "blockClass": "menu"
+    }
+  },
+  "logo#header-mb": {
+    "props": {
+      "url": "https://storecomponents.vtexassets.com/arquivos/store-theme-logo.png",
+      "href": "/",
+      "blockClass": "header-logo-mb"
+    }
+  },
+
+  /* ----- ROW SEARCH ----- */
+  "flex-layout.row#header-search-mb": {
+    "props": {
+      "blockClass": "header-search-mb"
+    },
+    "children": [
+      "search-bar"
+    ]
+  }
+
+}
